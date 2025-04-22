@@ -20,6 +20,7 @@
   padding: 2rem;
   border-radius: 10px;
   background-color: #1f2535;
+  padding-bottom: 0px;
 }
 .firstPart {
   display: flex;
@@ -38,6 +39,14 @@
   text-align: left;
   margin: 1rem;
   margin-top: 0rem;
+}
+.firstQuart h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.firstQuart p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .lastPart {
   display: flex;
