@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #050B21;
+  background-color: #050b21;
 }
 
 .react-switch {
@@ -19,38 +19,37 @@
   margin: 2rem;
   padding: 2rem;
   border-radius: 10px;
-background-color:#1F2535 ;
+  background-color: #1f2535;
 }
-.firstPart{
-display: flex;
-align-items: flex-start;
-gap: 1rem;
+.firstPart {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
 }
 .imageWrap {
-display:block;
-max-width: 100px;
-height: auto;
-margin: 0;
-padding:0;
+  display: block;
+  max-width: 100px;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
-.firstQuart{
+.firstQuart {
   text-align: left;
   margin: 1rem;
   margin-top: 0rem;
 }
 .lastPart {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
 }
 .header {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 2rem;
-
 }
 .allCards {
   display: grid;
@@ -66,18 +65,17 @@ padding:0;
   cursor: pointer;
 }
 .buttonMain:hover {
-  background-color: #F15B56;
+  background-color: #f15b56;
   cursor: pointer;
 }
-.other:hover{
+.other:hover {
   background-color: #535766;
   color: white;
- 
 }
 .other {
-background-color: #2F354A;
-border-radius: 5rem;
-margin:2px
+  background-color: #2f354a;
+  border-radius: 5rem;
+  margin: 2px;
 }
 .button {
   gap: 2rem;
@@ -89,4 +87,10 @@ margin:2px
   .allCards {
     display: grid;
     grid-template-columns: 1fr;
-  };
+  }
+  .header {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
