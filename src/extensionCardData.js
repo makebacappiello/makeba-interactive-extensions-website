@@ -1,7 +1,7 @@
 let data = [
   {
     id: 1,
-    logo: "src/assets/logo-devlens.svg",
+    logo: "/assets/logo-devlens.svg",
     name: "DevLens",
     description:
       "Quickly inspect page layouts and visualize element boundaries.",

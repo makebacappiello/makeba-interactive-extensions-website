@@ -12,6 +12,7 @@ function Card({
   status,
   removeBtn,
   changeData,
+
   // onClick,
 }) {
   // const [count, setCount] = useState(0)
