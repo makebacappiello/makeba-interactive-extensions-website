@@ -11,16 +11,11 @@ function Home() {
   const filterArray = dataArray.filter((item) => {
     if (filter === "active") {
       console.log("ran");
-      {
-        changeStyle;
-      }
-      return item.isActive === true;
+
+      return item.isActive;
     }
     if (filter === "inactive") {
       console.log("ran inactive");
-      {
-        changeStyle;
-      }
       return item.isActive !== true;
     }
     return item;
